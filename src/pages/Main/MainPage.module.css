@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 58px);
+}
+
+.titleBlock {
+    text-align: center;
+}
+
+.btnStart {
+    padding: 10px 25px;
+    background-color: #2f938a;
+    color: #fafafa;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btnStart:hover {
+    border-radius: 0;
+    background-color: #4e9b94;
+}

@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 5px 10vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f938a;
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #fafafa;
+    font-family: sans-serif;
+
+}
+
+.logoIcon {
+    width: 36px;
+    height: 36px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    position: relative;
+}
+
+.navbar span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar ul {
+    display: flex;
+    column-gap: 12px;
+    list-style: none;
+}
+
+.navbar ul li {
+    color: #fafafa;
+}
+
+.navbar ul li:hover {
+    border-bottom: 1px solid #fafafa;
+}
+
+.activeLink {
+    border-bottom: 1px solid #fafafa;
+}
+
+@media screen and (max-width: 940px) {
+    .header {
+        padding: 0 10px;
+    }
+
+    .navbar > * {
+        margin-left: 0;
+    }
+}
